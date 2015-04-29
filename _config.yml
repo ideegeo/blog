@@ -35,7 +35,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'https://iwantmyname.com/blog/'
   relativeLinks: 'https://iwantmyname.com/blog/links.jsonp'
-  media: 'media'
+  media: 'assets/images/content'
   ignore:
     - index.html
     - _config.yml
