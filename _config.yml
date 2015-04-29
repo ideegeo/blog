@@ -52,6 +52,11 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: ""
       - name: "header_image"
         field:
           element: "text"
