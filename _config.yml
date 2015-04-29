@@ -56,7 +56,7 @@ prose:
         field:
           element: "text"
           label: "Date"
-          value: ""
+          value: "CURRENT_DATETIME"
       - name: "header_image"
         field:
           element: "text"
