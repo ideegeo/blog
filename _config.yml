@@ -27,3 +27,23 @@ timezone: America/Los_Angeles
 # Absolute URL to images
 #   HTML Proofer doesn't have an src_swap option, so we need to treat images as external images
 images_url: https://iwantmyname.com/blog/assets/images/content
+
+
+# Prose.io configuration
+#   https://github.com/prose/prose/wiki/Prose-Configuration
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://iwantmyname.com/blog/'
+  relativeLinks: 'https://iwantmyname.com/blog/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
